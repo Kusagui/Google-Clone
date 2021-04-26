@@ -95,7 +95,7 @@ html
     border-width: 0;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    font-style: italic;
+    font-size: 1.4rem;
 }
 
 .button button:hover
