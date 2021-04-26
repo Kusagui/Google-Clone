@@ -52,15 +52,53 @@ html
     color: black;
 }
 
-#Capa_1
+.gmail:hover,
+.imagenes:hover
 {
-    width: 15px;
+    text-decoration: underline;
 }
 
-.header-nav__list--item button
+.icono a
+{
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.icono a:hover
+{
+    background-color: #dae0e6;
+}
+
+#Capa_1
+{
+    width: 17px;
+}
+
+.button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button
 {
     background-color: #1a73e8;
     color: white;
     border-width: 0;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-style: italic;
+}
 
+.button button:hover
+{
+    background-color: #6a9fe4;
 }
