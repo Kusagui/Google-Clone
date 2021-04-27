@@ -122,6 +122,7 @@ body
     border-radius: 0.5rem;
     font-size: var(--font-size__medium);
     font-style: italic;
+    cursor: pointer;
 }
 
 .button button:hover
@@ -265,6 +266,7 @@ body
     padding: 1rem 1rem;
     font-size: var(--font-size__medium);
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .box1 button:hover
