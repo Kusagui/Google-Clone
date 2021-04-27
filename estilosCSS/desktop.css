@@ -1,0 +1,29 @@
+/*----------FOOTER----------*/
+
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.nav1
+{
+    width: 65%;
+    height: auto;
+    justify-content: start;
+}
+.nav2
+{
+    width: 35%;
+    height: auto;
+    right: 1.5rem;
+    justify-content: flex-end;
+}
+
