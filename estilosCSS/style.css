@@ -141,7 +141,7 @@ body
 .main-section__one
 {
     width: 100%;
-    height: 220px;
+    height: 260px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -266,8 +266,8 @@ body
 {
     border: solid 1px var(--border-color__main--button);
     background-color: var(--background-color__main--button);
-    margin: 0 0.5rem;
-    padding: 1rem 1rem;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
     font-size: var(--font-size__medium);
     border-radius: 1rem;
     cursor: pointer;
@@ -278,14 +278,15 @@ body
     box-shadow: var(--background-color__main--buttonhub) 1px 1px 4px;
 }
 
-.box2 a
-{
-    font-size: 1.2rem;
-}
-
 .box2 p
 {
-    font-size: 1.2rem;
+    font-size: var(--font-size__medium);
+    color: #4285f4;
+}
+
+.box2 a
+{
+    font-size: var(--font-size__medium);
 }
 
 /*----------FOOTER----------*/
