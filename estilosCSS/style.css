@@ -219,7 +219,11 @@ body
     justify-content: center;
     flex-basis: auto;
     flex-grow: 1;
+}
 
+.container-item__three
+{
+    cursor: pointer;
 }
 
 .container-item__two label
