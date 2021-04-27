@@ -1,3 +1,23 @@
+:root
+{
+    --font-size__min: 1.2rem;
+    --font-size__medium: 1.4rem;
+    --font-color__nav--header: black;
+    --font-color__button--header: white;
+    --font-color__main--input: black;
+    --background-color__icon--headerhob: #dae0e6;
+    --background-color__button--header: #1a73e8;  
+    --background-color__button--headerhob: #6a9fe4;
+    --border-color__container--main: rgb(223, 221, 221);
+    --border-color__container--mainhob: rgb(211, 209, 209);
+    --background-color__main--button: #f8f9fa;
+    --background-color__main--buttonhub: rgb(211, 209, 209);
+    --border-color__main--button: #f8f9fa;
+    --background-color__footer: #f2f2f2;
+    --border-color__section--footer: rgb(201, 199, 199);
+    --font-color__nav--footer: rgb(104, 103, 103);
+}
+
 *
 {
     box-sizing: border-box;
@@ -53,8 +73,8 @@ body
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 1.4rem;
-    color: black;
+    font-size: var(--font-size__medium);
+    color: var(--font-color__nav--header);
 }
 
 .gmail:hover,
@@ -71,7 +91,7 @@ body
 
 .icono a:hover
 {
-    background-color: #dae0e6;
+    background-color: var(--background-color__icon--headerhob);
 }
 
 #Capa_1
@@ -95,18 +115,18 @@ body
 
 .button button
 {
-    background-color: #1a73e8;
-    color: white;
+    background-color: var(--background-color__button--header);
+    color: var(--font-color__button--header);
     border-width: 0;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    font-size: 1.4rem;
+    font-size: var(--font-size__medium);
     font-style: italic;
 }
 
 .button button:hover
 {
-    background-color: #6a9fe4;
+    background-color: var(--background-color__button--headerhob);
 }
 
 /*----------MAIN----------*/
@@ -159,13 +179,13 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid rgb(223, 221, 221) 1px;
+    border: solid var(--border-color__container--main) 1px;
     border-radius: 5rem;
 }
 
 .main-section__two--container:hover
 {
-    box-shadow: rgb(211, 209, 209) 1px 1px 4px;
+    box-shadow: var(--border-color__container--mainhob) 1px 1px 4px;
 }
 
 .container-item__one,
@@ -213,8 +233,8 @@ body
     height: 100%;
     border: none;
     background-color: transparent;
-    color: black;
-    font-size: 1.4rem;
+    color: var(--font-color__main--input);
+    font-size: var(--font-size__medium);
     outline: none;
 }
 
@@ -239,17 +259,17 @@ body
 
 .box1 button
 {
-    border: solid 1px #f8f9fa;
-    background-color: #f8f9fa;
+    border: solid 1px var(--border-color__main--button);
+    background-color: var(--background-color__main--button);
     margin: 0 0.5rem;
     padding: 1rem 1rem;
-    font-size: 1.4rem;
+    font-size: var(--font-size__medium);
     border-radius: 1rem;
 }
 
 .box1 button:hover
 {
-    box-shadow: rgb(211, 209, 209) 1px 1px 4px;
+    box-shadow: var(--background-color__main--buttonhub) 1px 1px 4px;
 }
 
 .box2 a
@@ -268,7 +288,7 @@ body
 {
     width: 100vw;
     height: 15vh;
-    background-color: #f2f2f2;
+    background-color: var(--background-color__footer);
 }
 
 .footer-section
@@ -282,13 +302,13 @@ body
     height: 30%;
     display: flex;
     align-items: center;
-    border-bottom: solid 1px rgb(201, 199, 199);
+    border-bottom: solid 1px var(--border-color__section--footer);
 }
 
 .paragraph p
 {
-    font-size: 1.2rem;
-    color: rgb(104, 103, 103);
+    font-size: var(--font-size__min);
+    color: var(--font-color__nav--footer);
     margin: 0 1.5rem;    
 }
 
@@ -328,8 +348,8 @@ body
 .footer-section__nav--list a
 {
     text-decoration: none;
-    font-size: 1.2rem;
-    color: rgb(104, 103, 103);
+    font-size: var(--font-size__min);
+    color: var(--font-color__nav--footer);
 }
 
 .footer-section__nav--list a:hover
