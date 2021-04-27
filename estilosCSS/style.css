@@ -275,7 +275,9 @@ body
 
 .box1 button:hover
 {
+    border: solid 1px #c6c6c6;
     box-shadow: var(--background-color__main--buttonhub) 1px 1px 4px;
+    color: #222;
 }
 
 .box2 p
