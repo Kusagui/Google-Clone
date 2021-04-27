@@ -281,7 +281,7 @@ body
 .box2 p
 {
     font-size: var(--font-size__medium);
-    /* color: #4285f4; */
+    color: #4285f4;
 }
 
 .box2 a
