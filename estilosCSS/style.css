@@ -114,7 +114,7 @@ body
 .main
 {
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
 }
 
 .main-section__one
@@ -267,7 +267,7 @@ body
 .footer
 {
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     background-color: #f2f2f2;
 }
 
@@ -320,6 +320,7 @@ body
 .footer-section__nav--list li
 {
     list-style: none;
+    margin: 1rem 0;
     padding-right: 1rem;
     padding-left: 1rem;
 }
